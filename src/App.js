@@ -1,17 +1,12 @@
 import './App.css';
-import CurrentWeather from './components/CurrentWeather.jsx';
-import ChartData from './components/ChartData.jsx';
-import PreviousWeather from './components/PreviousWeather.jsx';
+import Navbar from './components/Navbar';
+import { Box } from '@mui/material';
 
 function App() {
   return (
-    <div>
-    <CurrentWeather />
-    <div>
-      <ChartData />
-      <PreviousWeather />
-    </div>
-    </div>
+    <Box>
+      <Navbar />
+    </Box>
   );
 }
 
